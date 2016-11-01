@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Monofett');
+
+body {
+  background-image: url('http://previewcf.turbosquid.com/Preview/2014/08/01__15_24_10/Desert-Floor_0409.pngf3e355d7-2aa9-4522-bfe3-2d527b5262c1Larger.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: url('http://pocketmonsters.me/wp-content/uploads/pokeball.png'), auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family:Monofett ;
+  font-size: 50px;
+}
+
+.scorebox {
+  background: white;
+  width: 20%;
+  height: 100px;
+  border: 5px solid black;
+}
+
+
+.row {
+  border: 0px solid;
+  width: 1000px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outer {
+  border: 0px solid;
+  width: 300px;
+  height: 250px;
+  margin-left: 20px;
+  float: left;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.inner {
+  background-color: gray;
+  border: 2px solid;
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+img {
+  width: 230px;
+  position: relative;
+  top: 100%;
+  animation: popup 1.5s infinite;
+}
+
+@keyframes popup {
+  50% {
+    top: 25%;
+  }
+}
+
+#diglett1 {
+  animation-delay: 4s;
+  -webkit-filter: hue-rotate(180deg);
+}
+  
+#diglett2 {
+    animation-delay: 5s;
+  -webkit-filter:contrast(1000%)
+}
+  #diglett3 {
+    animation-delay: 1s;
+    -webkit-filter:grayscale(67%)
+}   
+    #diglett4 {
+    animation-delay: 0.5s;
+      -webkit-filter:contrast(200%)
+}
+  #diglett5 {
+    animation-delay: 3s;
+}
+    #diglett6 {
+    animation-delay: 10s;
+     -webkit-filter:hue-rotate(90deg)
+}  
+    #sandshrew { 
+    animation-delay: 0.25567675785758s;
+}
